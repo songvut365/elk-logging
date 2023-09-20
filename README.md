@@ -5,7 +5,7 @@
 
 ## How to run
 1. Start ELK Stack with docker-compose
-```
+```shell
 cd elk-stack
 docker-compose up -d
 ```
@@ -14,7 +14,7 @@ docker-compose up -d
 
 
 3. Run go-service for create log
-```
+```shell
 go run main.go
 {"@timestamp":"2023-09-19T22:53:23+07:00","message":"service is starting...","ref-id":"98463479-645c-4dbc-a609-78ae34ea5f57","severity":"info"}
 {"@timestamp":"2023-09-19T22:53:23+07:00","message":"wait a minute, something's wrong here","ref-id":"98463479-645c-4dbc-a609-78ae34ea5f57","severity":"warning"}
